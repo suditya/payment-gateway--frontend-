@@ -14,14 +14,15 @@
     <form action="">
         <h1 id ="card">PAYMENT FORM </h1>
         <hr>
+        <div class="contact">
         <h2 id="cnt">CONTACT INFO: <img src="https://bit.ly/3eeIchB" alt="contact" style="width:5% ; border-radius: 25%; align-items: center;" ></h2>
-        <fieldset>
-            <div class="cont">
-        <p>NAME*:  <input type="text" name="name" required placeholder="your name"> </p>
+        <!-- <fieldset> -->
+            <!-- <div class="cont"> -->
+        <p>NAME*:  <input type="text" class="cd"  name="name" required placeholder="your name" style="width: 100%;"> </p>
         
         <p>
             <legend>GENDER</legend>
-            <input type="radio" name="gen" id="g">MALE
+            <input type="radio" name="gen" id="g" >MALE
             <input type="radio" name="gen" id="g">FEMALE
             <input type="radio" name="gen" id="g">OTHERS
 
@@ -29,13 +30,14 @@
     
     <p>
         <legend>ADDRESS : </legend>
-         <textarea name="add" id="add" cols="150" rows="8" placeholder="enter your full address"></textarea>
+         <textarea name="add" id="add" cols="150" rows="8" placeholder="enter your full address"  style="width: 100%;"></textarea>
     </p>
     <p>
-        MAIL: <input type="email" name="email" id="email" width="180" placeholder="youremail@email.com">
+        MAIL: <input type="email" name="email" class="cd"  width="180" placeholder="youremail@email.com" width="100%">
     </p>
-    <p>PINCODE <input type="number" name="pin" id="pin" placeholder="pin code"></p>
+    <p>PINCODE <input type="number" class="cd" name="pin" placeholder="pin code" width="100px"></p>
             </div>
+        <!-- </div> -->
 <!-- </fieldset> -->
 <hr>
 <!-- <fieldset> -->
@@ -47,26 +49,26 @@
 <p><img src=" " alt=""></p>
 <p>CARD TYPE:
     <select name="card" id="cd">
-    <option value="" id="cd">--select a card type--</option>
-    <option value="master">master card</option>
-    <option value="visa">VISA</option>
-    <option value="rupay">Rupay</option> 
+    <option value="" class="cd">--select a card type--</option>
+    <option value="master" class="cd">master card</option>
+    <option value="visa" class="cd">VISA</option>
+    <option value="rupay" class="cd" >Rupay</option> 
 </select>
 </p>
 <p>
     CARD NUMBER:
-    <input type="number" name="n" id="n">
+    <input type="number" name="n" id="n" width="100%">
 </p>
 <p>
     EXPIRATION DATE:
-    <input type="date" name="exp" id="exp">
+    <input type="date" name="exp" id="exp" width="100%">
 </p>
 <p>
     CVV number:
-    <input type="password"  name="cvv" id="cvv">
+    <input type="password"  name="cvv" id="cvv" width="100%">
 </p>
 <!-- <em><img src="https://bit.ly/3AOIqpi" alt="lion"></em> -->
-<p><input type="submit" class="pay" value="PAY NOW"></p>
+<p><input type="submit" class="pay" value="PAY NOW" width="100%"></p>
 <!-- </fieldset> -->
 <!-- </fieldset> -->
 <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint.</p> -->
