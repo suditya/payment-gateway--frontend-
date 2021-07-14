@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAYMENT FORM</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body id="container">
+    <!-- <button><a href="index2.html">second page</a></button>
+    <button><a href="index1.html">first page</a></button> -->
+    <!-- <fieldset> -->
+    <form action="">
+        <h1 id ="card">PAYMENT FORM </h1>
+        <hr>
+        <h2 id="cnt">CONTACT INFO: <img src="https://bit.ly/3eeIchB" alt="contact" style="width:5% ; border-radius: 25%; align-items: center;" ></h2>
+        <fieldset>
+            <div class="cont">
+        <p>NAME*:  <input type="text" name="name" required placeholder="your name"> </p>
+        
+        <p>
+            <legend>GENDER</legend>
+            <input type="radio" name="gen" id="g">MALE
+            <input type="radio" name="gen" id="g">FEMALE
+            <input type="radio" name="gen" id="g">OTHERS
+
+        </p>
+    
+    <p>
+        <legend>ADDRESS : </legend>
+         <textarea name="add" id="add" cols="150" rows="8" placeholder="enter your full address"></textarea>
+    </p>
+    <p>
+        MAIL: <input type="email" name="email" id="email" width="180" placeholder="youremail@email.com">
+    </p>
+    <p>PINCODE <input type="number" name="pin" id="pin" placeholder="pin code"></p>
+            </div>
+<!-- </fieldset> -->
+<hr>
+<!-- <fieldset> -->
+<h2>PAYMENT INFORMATION:</h2>
+<hr>
+<h3>ACCEPTED CARDS</h3>
+<p><img src="http://www.credit-card-logos.com/images/visa_credit-card-logos/visa_logo_6.gif" style="width:100px" alt="visa">
+<img src="http://www.credit-card-logos.com/images/mastercard_credit-card-logos/mastercard_logo_5.gif" alt="mastercard" style="width:100px"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Rupay-Logo.png" alt="rupay"style="width:100px "></p>
+<p><img src=" " alt=""></p>
+<p>CARD TYPE:
+    <select name="card" id="cd">
+    <option value="" id="cd">--select a card type--</option>
+    <option value="master">master card</option>
+    <option value="visa">VISA</option>
+    <option value="rupay">Rupay</option> 
+</select>
+</p>
+<p>
+    CARD NUMBER:
+    <input type="number" name="n" id="n">
+</p>
+<p>
+    EXPIRATION DATE:
+    <input type="date" name="exp" id="exp">
+</p>
+<p>
+    CVV number:
+    <input type="password"  name="cvv" id="cvv">
+</p>
+<!-- <em><img src="https://bit.ly/3AOIqpi" alt="lion"></em> -->
+<p><input type="submit" class="pay" value="PAY NOW"></p>
+<!-- </fieldset> -->
+<!-- </fieldset> -->
+<!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint.</p> -->
+    </form>
+</body>
+</html>
